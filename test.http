@@ -1,0 +1,19 @@
+### 모델 로드 요청 (POST 요청)
+POST http://127.0.0.1:8000/model/AND
+Content-Type: application/json
+
+### 모델 로드 요청 (POST 요청)
+POST http://127.0.0.1:8000/model/OR
+Content-Type: application/json
+
+### 모델 로드 요청 (POST 요청)
+POST http://127.0.0.1:8000/model/NOT
+Content-Type: application/json
+
+### 모델 로드 요청 (POST 요청)
+POST http://127.0.0.1:8000/model/XOR
+Content-Type: application/json
+
+### 모델 예측 요청 (GET 요청)
+GET http://127.0.0.1:8000/model/test
+Content-Type: application/json
